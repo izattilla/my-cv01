@@ -1,0 +1,265 @@
+:root {
+    --accent: rgb(42, 17, 151);
+    --accent-light:hwb(251 2% 1%) ;
+    --pure-white: rgb(255, 255, 255);
+  }
+  
+  html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: serif ;
+    margin: 0;
+    color: var(--accent);
+    font-style: italic;
+    background-image: url(/img/1.jpg);
+  }
+
+
+  
+  .header {
+    background-color: var(--accent);
+    background-image: url(/img/pngtree-abstract-background-of-information-technology-image_555014.jpg);
+  }
+  .header a {
+    color: var(--pure-white);
+    text-decoration: none;
+  }
+  
+  .header-navigation {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .header-logo {
+    text-transform: uppercase;
+  }
+  
+  .menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-link {
+    text-transform: uppercase;
+    padding: 15px;
+    transition: 0.4s;
+  }
+  
+  .menu-link:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .intro-left {
+    width: 20%;
+  }
+  
+  .intro-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+  }
+  
+  .intro-right {
+    width: 60%;
+    margin: 50px;
+  }
+  
+  .intro-img {
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid hwb(251 2% 1%);
+  }
+  
+  .intro-right h1,
+  .intro-right h3 {
+    margin: 0 0 15px;
+  }
+  
+  .contacts {
+    margin-bottom: 60px;
+    margin-top: -20px;
+  }
+  
+  .section-title {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .contacts ul {
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  .contacts h4 {
+    text-align: center;
+    margin: 10px 50px;
+  }
+  
+  .skills {
+    background-color: var(--accent);
+    color: var(--pure-white);
+    background-image: url(/img/pngtree-abstract-background-of-information-technology-image_555014.jpg);
+  }
+  
+  .skills ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .skills li {
+    padding: 10px 15px;
+    background-color: var(--accent-light);
+    border-radius: 5px;
+  }
+  
+  .example pre {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;*/
+  }
+  .languages {
+    margin: 30px 0px 30px 0px;
+    background-color: var(--accent);
+    color: var(--pure-white);
+    background-image: url(/img/pngtree-abstract-background-of-information-technology-image_555014.jpg);
+    
+  }
+  .languages ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+ 
+  .edu h2 {
+    padding: -40px 0;
+  }
+  
+  .edu li {
+    background-color: var(--accent-light);
+    border-radius: 5px;
+  }
+  
+  .title-wrap {
+    text-align: center;
+  }
+  
+  .title {
+    position: relative;
+    padding: 10px 10px 5px 30px;
+    margin-right: 40px;
+    display: inline-block;
+    font-size: 20px;
+  }
+  .title::before {
+    position: absolute;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    content: ""; 
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+      max-width: 320px;
+      padding: 0 5px;
+      overflow: hidden;
+    }
+    .header-navigation {
+      display: flex;
+      flex-direction: column;
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      margin: 5px;
+    }
+    .menu-link {
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .intro-inner {
+      display: flex;
+      flex-direction: column;
+    }
+    .intro-left {
+      margin-right: 190px;
+    }
+    .example pre {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media (width: 768px) {
+    .container {
+      width: 750px;
+      padding: 0 10px;
+      margin: 0 auto;
+    }
+    .header-navigation {
+      padding: 5px 0;
+      display: flex;
+      font-size: 14px;
+    }
+    .intro-inner {
+      gap: 10px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .intro-left {
+      width: 15%;
+      margin-left: 70px;
+    }
+    .intro-right {
+      width: 65%;
+    }
+  }
+  
