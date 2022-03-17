@@ -19,14 +19,14 @@
     margin: 0;
     color: var(--accent);
     font-style: italic;
-    background-image: url(/img/1.jpg);
+    background-image: url(./img/1.jpg);
   }
 
 
   
   .header {
     background-color: var(--accent);
-    background-image: url(/img/pngtree-abstract-background-of-information-technology-image_555014.jpg);
+    background-image: url(./img/pngtree-abstract-background-of-information-technology-image_555014.jpg);
   }
   .header a {
     color: var(--pure-white);
@@ -125,7 +125,7 @@
   .skills {
     background-color: var(--accent);
     color: var(--pure-white);
-    background-image: url(/img/pngtree-abstract-background-of-information-technology-image_555014.jpg);
+    background-image: url(./img/pngtree-abstract-background-of-information-technology-image_555014.jpg);
   }
   
   .skills ul {
@@ -153,7 +153,7 @@
     margin: 30px 0px 30px 0px;
     background-color: var(--accent);
     color: var(--pure-white);
-    background-image: url(/img/pngtree-abstract-background-of-information-technology-image_555014.jpg);
+    background-image: url(./img/pngtree-abstract-background-of-information-technology-image_555014.jpg);
     
   }
   .languages ul {
